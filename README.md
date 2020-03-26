@@ -12,7 +12,8 @@ The  aim  in  this  lab  is  to  use  a  Raspberry  Pi  with  ADC to  verify  th
 2)  Create  a  function  readadc  with  parameters  (adcnum, clockpin, mosipin, misopin, cspin)
 3)  This function will read from DOUT and DIN pins from ADC  and  return  adcout  values  i.e  the  sampled  and quantized value.
 4)  In  a  while  loop,  we  keep  calling  readadc  function  and convert  the  quantized  value  to  understandable  voltage values  when  the  adcout  value  has  changed  i.e  the  pot has been moved
-5)  The  adcout  value  is  to  be  to  convert  from  a  10-bit  (0-1023) range to a (0-3.3V) range6)  We then multiply by 3.3 and divide by 1023 to get the final voltage value
+5)  The  adcout  value  is  to  be  to  convert  from  a  10-bit  (0-1023) range to a (0-3.3V) range
+6)  We then multiply by 3.3 and divide by 1023 to get the final voltage value
 
 ## Testing and Verification
 This  section  deals  with  the  hardware  and  software  testing and verification:
