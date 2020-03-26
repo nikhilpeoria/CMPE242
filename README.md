@@ -18,4 +18,4 @@ By writing simple GPIO testing programs, we perform input and output testing of 
 
 ### C.  Verification
 1)  When the ADC code is run, it displays the voltage values (0 to 3.3V) along with its 10-bit range value (0 to 1023)
-2)  The  difference  between  the  actual  and  expected  valuegives us the error
+2)  The  difference  between  the  actual  and  expected  value gives us the error
